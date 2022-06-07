@@ -53,6 +53,7 @@ genblend(){
         for filein in ${rawfolder}*.png
         do
             local fileout=${sizesfolder}$(printf "%03d" $s)px_${filein##*/}
+   # changed here. <-- SY Jin
             convert $filein -resize ${s}x${s} -quality 15 $fileout &
             local delay=$(round $(math "1000/$4"))
             echo $s $hotx $hoty $fileout $delay >> $xcursorin
@@ -87,6 +88,7 @@ genpreviews(){
         elif [ $count -gt 1 ]
         then
             local delay=$(round $(math "100/$1"))
+            # Here changed <-- SY jin
             convert -dispose Background -delay $delay -loop 0 -define webp:lossless=true ${target}/*.png ${output}${x}.webp &
         fi
     done
@@ -111,8 +113,10 @@ genwindows(){
     if [ ${#frames[@]} -gt 1 ]
     then
         echo .ani TODO. Falling back to .cur
+        # Here changed <-- Jin
         convert ${sizesfolder}/*${frames[0]##*/} ico:- | ./icotocur.py $2 $3 > ${curfolder}/${5}.cur
     else
+        # Changed Here. <-- SY Jin.
         convert ${sizesfolder}/*${frames[0]##*/} ico:- | ./icotocur.py $2 $3 > ${curfolder}/${5}.cur
     fi
 }
