@@ -1,6 +1,7 @@
 - from **SY Jin**: this new branch is tested in ubuntu 22.04, I changed few lines of code to make it run properly on machine.
 - from **SY Jin**: Of course, you still need to install those dependence as the author saying, just using apt/yum. 
 - from **SY Jin**: This version is undoubtly the most beautiful one I've ever seen. That's to  Beinsezii! I appreciate your work!
+- from **SY Jin**: I've put the compiled version into release.
 
 # NieR Style Cursors
 Uses Blender 2.83, xcursorgen, imagemagick, and of course common bash tools like `bc`. Building for windows also needs Python 3.
