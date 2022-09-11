@@ -28,7 +28,7 @@ Adwaita is a fallback for those not included. This can be changed in the "index.
 
 **OR**
 
-download the release, unzip the package and put it into /use/share/icons/
+download the release, unzip the package and put it into /usr/share/icons/
 
 ### Installation of prebuilt themes
 
