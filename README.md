@@ -43,7 +43,6 @@ Some cursors look 'off'. Ex: Default arrow.|They're mathematically perfect, not 
 Why Blender? Inkscape or Illustrator would do this and that and everything better|Inkscape 0.9X straight doesn't support the cursor workflow of sharing assets and non-destructive modification. Inkscape 1.0 beta *does* but also eats my fukken soul every time it crashes or hangs, which is a lot. So much so that if I had $100 for every time I lost changes in Inkscape beta I would be well on my way to taking that computer science class I can't afford. Ergo, Illustrator is also out of the picture cause expensive proprietary biz. Blender with it's new Eevee render is a swiss army knife of artwork and has only crashed like 4 times so far so overall it has a Crash-Per-Session (CPS)[not related] rate improvement of a few thousand percent over Inkscape beta. There's an unmaintained Inkscape branch in this git repo if you *still* don't believe me, where I initially made the cursor and loading circle.
 
 # Log
-- This new branch is tested in ubuntu 22.04, I changed few lines of code to make it run properly on machine.
+- This new branch is tested in ubuntu 22.04.
 - Also tested on Arch family. No error report.
 - I've put the compiled version into release.
-- This version is undoubtly the most beautiful one I've ever seen. That's to  Beinsezii! I appreciate your work!
